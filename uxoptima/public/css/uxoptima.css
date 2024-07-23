@@ -20,20 +20,20 @@
 /* NAVBAR DESIGNE */
 
 .navbar-home img {
-	max-height: 48px;
+	max-height: 48px !important;
 	width: auto;
-	border-radius: 15px;
+	border-radius: 15px !important;
 }
 
 .navbar {
-	height: 60px;
-	background: var(--navbar-bg);
+	height: 60px !important;
+	background: var(--navbar-bg) !important;
 	border-bottom: 1px solid var(--border-color);
 	padding: 0;
 }
 
 .widget.links-widget-box, .widget.dashboard-widget-box {
-	border: 1px solid var(--navbar-bg);
+	border: 1px solid var(--navbar-bg) !important;
 }
 
 .widget {
