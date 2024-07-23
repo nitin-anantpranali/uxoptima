@@ -20,6 +20,13 @@
 /* NAVBAR DESIGNE */
 
 .navbar-home img {
-	max-height: 48px;
+	max-height: 48px !important;
 	width: auto;
+}
+
+.navbar {
+    height: 58px !important;
+    background: var(--navbar-bg);
+    border-bottom: 1px solid var(--border-color);
+    padding: 0;
 }
