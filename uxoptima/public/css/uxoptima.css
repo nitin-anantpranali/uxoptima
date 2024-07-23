@@ -22,13 +22,18 @@
 .navbar-home img {
 	max-height: 48px;
 	width: auto;
+	border-radius: 15px;
 }
 
 .navbar {
-    height: 60px;
-    background: var(--navbar-bg);
-    border-bottom: 1px solid var(--border-color);
-    padding: 0;
+	height: 60px;
+	background: var(--navbar-bg);
+	border-bottom: 1px solid var(--border-color);
+	padding: 0;
+}
+
+.widget.links-widget-box, .widget.dashboard-widget-box {
+	border: 1px solid var(--navbar-bg);
 }
 
 .widget {
@@ -40,10 +45,3 @@
 	height: 100%;
 	background-color: var(--card-bg);
 }
-
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
