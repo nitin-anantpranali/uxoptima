@@ -32,7 +32,8 @@
 	padding: 0;
 }
 
-.widget.links-widget-box, .widget.dashboard-widget-box {
+.widget.links-widget-box {
+    padding: 10px;
 	border: 1px solid var(--navbar-bg) !important;
 }
 
